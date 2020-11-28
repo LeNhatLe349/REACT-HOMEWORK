@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size:20px;
+    background-color: #4E5366;
+}
+.wraper {
+    width: 100%;
+    height: auto;
+}
+.nav__list {
+    margin-top: 50px;
+    display: flex;
+    background-color: #4E5366;
+    height: 30px;
+}
+.nav__list a{
+    padding:3px 20px;
+    text-decoration: none;
+    color: white;
+}
+.nav__list a:first-child {
+    border-right: 1px solid white;
+    padding-left: 50px;
+}
+.nav__list a:last-child {
+    padding-left: 65%;
+}
